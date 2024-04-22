@@ -2,7 +2,7 @@
 
 Files: 
 
-CAL_mp.py - python class for treating the 3D printing problem, starting from an STL file (CAL_mp uses multiprocessing unlike CAL.py)
+CAL(_mp).py - python class for treating the 3D printing problem, starting from an STL file (CAL_mp uses multiprocessing unlike CAL.py, but note that it is currently not compatible with Windows due to usage of `spawn` as the start method).
 
 *.ipynb - notebooks showing specific examples
 
