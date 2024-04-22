@@ -14,6 +14,21 @@ hollies_hand... - Folder containing output files for one particular geometry (no
 
 tomoEnv.yml - environment file to run this project
 
+Installation (conda)
+- clone the repository `git clone https://github.com/indrasen1/tomo3D_repo.git && cd tomo3D_repo`
+- install the environment `conda env create -f tomoEnv.yml`
+- activate the environment `conda activate tomoEnv`
+- run one of the example notebooks
+
+Manual installation (pip)
+- clone this repository `git clone https://github.com/indrasen1/tomo3D_repo.git`
+- (recomended) create and activate a virtual environment
+  - `python -m venv tomo3d`
+  - `source tomo3d/bin/activate` 
+- install dependencies `pip install numpy matplotlib scikit-image stl-to-voxel`
+- run one of the example notebooks
+
+
 ## Iterative projection calculation: forward model
 
 This python implementation provides the optimization and projection generation framework used for volumetric additive manufacturing as described in the following publications:
